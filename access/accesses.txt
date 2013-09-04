@@ -1,0 +1,11 @@
+Database info:
+--------------
+db name: 
+db user: 
+db pass: 
+
+Wordpress info:
+--------------
+wp user: 
+wp pass: 
+

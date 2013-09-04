@@ -1,0 +1,1 @@
+todo: move menu.png to THEME-NAM/wp-admin/images
