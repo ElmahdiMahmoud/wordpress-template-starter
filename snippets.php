@@ -49,3 +49,6 @@
 	'after' => '<li><i class="icon-separator"></i></li>'
 	)); 
 ?>  
+
+<? /* GET THUMBNAIL */ ?>
+<?php echo get_the_post_thumbnail($post_id, 'thumbnail', array('class' => 'alignleft')); ?>
