@@ -20,6 +20,7 @@
 	<?php the_permalink(); ?>
 	<?php the_content(); ?>
 	<?php the_author() ?>
+	<?php the_time('F M Y'); ?> 
 <?php endwhile;?> 
 
 <? /* GET CUSTOM FIELD */ ?>
