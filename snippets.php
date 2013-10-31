@@ -20,7 +20,7 @@
 	<?php the_permalink(); ?>
 	<?php the_content(); ?>
 	<?php the_author() ?>
-	<?php the_time('F M Y'); ?> 
+	<?php the_time('j M Y'); ?>  <!-- 9 Oct 2013 -->
 <?php endwhile;?> 
 
 <? /* GET CUSTOM FIELD */ ?>
