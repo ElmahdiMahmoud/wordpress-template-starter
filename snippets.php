@@ -24,12 +24,15 @@
 <?php endwhile;?> 
 
 <? /* GET CUSTOM FIELD */ ?>
-<?php if (get_post_meta($post->ID, 'FIELD-NAME' ) ) : ?>
-<p>
-	<span>Description:</span> 
-	<?php echo get_post_meta($post->ID, 'FIELD-NAME', true); ?>
-</p>
+<?php 
+	$cf = get_post_meta($post->ID, 'CUSTOM-FIELD-NAME/SLUG-GOES-HERE', true);
+	if ($cf) : 
+?>
+<div>
+	<span>Custom Field:</span> <?php echo $cf ?>
+</div>
 <?php endif; ?>	
+
 
 <? /* GET OPTIONS */ ?>
 <?php if (get_option('of_ID-GOES-HERE') ) : ?>
