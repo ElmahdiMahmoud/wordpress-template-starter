@@ -25,7 +25,7 @@
 
 <? /* GET CUSTOM FIELD */ ?>
 <?php 
-	$cf = get_post_meta($post->ID, 'CUSTOM-FIELD-NAME/SLUG-GOES-HERE', true);
+	$cf = get_post_meta($post->ID, 'SLUG-GOES-HERE', true);
 	if ($cf) : 
 ?>
 <div>
